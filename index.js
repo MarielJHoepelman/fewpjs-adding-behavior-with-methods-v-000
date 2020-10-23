@@ -16,6 +16,10 @@ class Dog {
     this.name = name;
     this.sex = sex;
   }
+
+  speak() {
+        return `${this.name} says woof!`;
+  }
 }
 
 class Bird {
