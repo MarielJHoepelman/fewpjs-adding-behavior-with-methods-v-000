@@ -36,10 +36,10 @@ class Bird {
     // }
     switch(this.sex) {
       case "male":
-      // code block
+        return `It's me! ${this.name}, the parrot!`;
       break;
       case "female":
-    // code block
+        return `${this.name} says squawk!`;
       break;
     }
   }
